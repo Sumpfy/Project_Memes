@@ -20,8 +20,8 @@
 }
 
 .frontpage-content {
-  max-width: 68vw;
-  max-height: 70vh;
+  max-width: 92vw;
+  max-height: 78vh;
   background-color: rgba(255,255,255,0.5);
   border: 2px white solid;
   border-radius: 0.85em;
@@ -75,4 +75,15 @@
 .blur {
   background-size:cover;
   filter: blur(2px);
+}
+
+@media (min-width: 38rem) {
+
+  .frontpage-content {
+    max-width: 58vw;
+    max-height: 72vh;
+  }
+
+
+
 }
