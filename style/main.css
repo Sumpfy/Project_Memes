@@ -4,13 +4,18 @@
   /* width: 100%; */
   background-color: #b1c8ed;
 }
+
+.pgcontent {
+  padding-top: 2.875rem;
+}
 .frontpage-container {
   display: flex;
   justify-content: center;
   align-items: center;
   background-attachment: fixed;
 
-  height: 100vh;
+  height: calc(100vh - 2.875rem);
+  width: 100vw;
   margin:0;
 }
 
@@ -18,7 +23,7 @@
   max-width: 68vw;
   max-height: 40vh;
   background-color: rgba(255,255,255,0.5);
-  border: 2px gray solid;
+  border: 2px white solid;
   border-radius: 0.85em;
   padding: 2em 3em 2em 3em;
 }
@@ -27,16 +32,16 @@
   background-image: url(../media/HeMan_Background.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100vw auto;
+  background-size: auto 100%;
 }
 
 .container-gradient1 {
   background: linear-gradient(17deg, #35e1b5, #ad0a7f);
   background-size: 400% 400%;
 
-  -webkit-animation: AnimationName 14s ease infinite;
-  -moz-animation: AnimationName 14s ease infinite;
-  animation: AnimationName 14s ease infinite;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
 
   @-webkit-keyframes AnimationName {
       0%{background-position:50% 0%}
