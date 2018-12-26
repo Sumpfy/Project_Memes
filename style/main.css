@@ -2,5 +2,60 @@
 
 .nav {
   /* width: 100%; */
-  background-color: silver;
+  background-color: #b1c8ed;
+}
+.frontpage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+
+  height: 100vh;
+  margin:0;
+}
+
+.frontpage-content {
+  max-width: 68vw;
+  max-height: 40vh;
+  background-color: rgba(255,255,255,0.5);
+  border: 2px gray solid;
+  border-radius: 0.85em;
+  padding: 2em 3em 2em 3em;
+}
+
+.container-image {
+  background-image: url(../media/HeMan_Background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+}
+
+.container-gradient1 {
+  background: linear-gradient(17deg, #35e1b5, #ad0a7f);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 14s ease infinite;
+  -moz-animation: AnimationName 14s ease infinite;
+  animation: AnimationName 14s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+      0%{background-position:50% 0%}
+      50%{background-position:51% 100%}
+      100%{background-position:50% 0%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:50% 0%}
+      50%{background-position:51% 100%}
+      100%{background-position:50% 0%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:50% 0%}
+      50%{background-position:51% 100%}
+      100%{background-position:50% 0%}
+  }
+}
+
+.blur {
+  background-size:cover;
+  filter: blur(2px);
 }

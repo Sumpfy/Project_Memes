@@ -16,28 +16,77 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script src="script/dynamic-parallax.js"></script> -->
 
-<ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link" href="#">Was ist ein "Meme"?</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Erscheinungsformen</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Bild</a>
-      <a class="dropdown-item" href="#">Ton</a>
-      <a class="dropdown-item" href="#">Video</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">mehr?</a>
+<!--
+    <ul class="nav flex-column flex-sm-row">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Was ist ein "Meme"?</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Erscheinungsformen</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Bild</a>
+          <a class="dropdown-item" href="#">Ton</a>
+          <a class="dropdown-item" href="#">Video</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">mehr?</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Entstehung</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Entwicklung</a>
+      </li>
+    </ul> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">MEMES</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Was ist ein "Meme"?<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Erscheinungsformen
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Bild</a>
+              <a class="dropdown-item" href="#">Ton</a>
+              <a class="dropdown-item" href="#">Video</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">mehr?</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Entstehung</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Entwicklung</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<div>
+    <div class="frontpage-container container-image">
+      <div class="frontpage-content">
+        <h1>Memes</h1>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadi</p>
+      </div>
     </div>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Entstehung</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Entwicklung</a>
-  </li>
-</ul>
 
+    <div class="frontpage-container container-gradient1">
+      <div class="frontpage-content">
+        <h1>HALLO</h1>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadi</p>
+      </div>
+    </div>
+</div>
   </body>
 </html>
