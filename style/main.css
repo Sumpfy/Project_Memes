@@ -1,12 +1,13 @@
 
-
 .nav {
   /* width: 100%; */
   background-color: #b1c8ed;
 }
-
+p {
+  margin: 0;
+}
 .pgcontent {
-  padding-top: 2.875rem;
+  padding-top: 3rem;
 }
 .frontpage-container {
   display: flex;
@@ -20,23 +21,26 @@
 }
 
 .frontpage-content {
+  color: white;
   max-width: 92vw;
   max-height: 78vh;
-  background-color: rgba(255,255,255,0.5);
-  border: 2px white solid;
+  background-color: rgba(1,1,1,0.25);
+  /* border: 2px white solid; */
   border-radius: 0.85em;
-  padding: 2em 3em 2em 3em;
+  padding: 1.2em 3em 1.2em 3em;
   filter: none !important;
   z-index: 10;
 }
-
+.frontpage-content h1 {
+  color: white;
+}
 .container-image {
   background-image: url(../media/HeMan_Background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  height: 100%;
+  height: calc(100vh - 2.875rem);
   width: 100%;
   transition: 0.18s ease;
 
@@ -51,9 +55,9 @@
   background: linear-gradient(17deg, #35e1b5, #ad0a7f);
   background-size: 400% 400%;
 
-  -webkit-animation: AnimationName 10s ease infinite;
-  -moz-animation: AnimationName 10s ease infinite;
-  animation: AnimationName 10s ease infinite;
+  -webkit-animation: AnimationName 6s ease infinite;
+  -moz-animation: AnimationName 6s ease infinite;
+  animation: AnimationName 6s ease infinite;
 
   @-webkit-keyframes AnimationName {
       0%{background-position:50% 0%}
