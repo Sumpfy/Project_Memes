@@ -16,7 +16,6 @@ p {
   background-attachment: fixed;
 
   height: calc(100vh - 2.875rem);
-  width: 100vw;
   margin:0;
 }
 
