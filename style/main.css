@@ -17,12 +17,13 @@ p {
   align-items: center;
   background-attachment: fixed;
   margin:0;
-  height: 32rem;
 }
 
 .frontpage-container {
   height: calc(100vh - 2.875rem);
   justify-content: center;
+  align-items: center;
+  min-height: 20rem;
 }
 	
 
@@ -58,8 +59,12 @@ p {
 } */
 
 .paragraph-text {
-  margin: 1.5rem 1rem 1.5rem 4rem;
-  max-width: 40%;
+  margin: 4rem 4rem 4rem 4rem;
+  max-width: 35%;
+}
+
+.right {
+  justify-content: right;
 }
 
 .container-gradient1 {
