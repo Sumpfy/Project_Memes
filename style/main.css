@@ -5,19 +5,26 @@
 }
 p {
   margin: 0;
+  font-size: 150%;
 }
 .pgcontent {
   padding-top: 3rem;
 }
-.frontpage-container {
+
+.paragraph-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   background-attachment: fixed;
-
-  height: calc(100vh - 2.875rem);
   margin:0;
+  height: 32rem;
 }
+
+.frontpage-container {
+  height: calc(100vh - 2.875rem);
+  justify-content: center;
+}
+	
 
 .frontpage-content {
   color: white;
@@ -33,12 +40,7 @@ p {
   transition: 2.0s ease;
   color: white;
 }
-.frontpage-content h1:hover {
-  text-align: right;
-}
-.frontpage-content p:hover {
-  text-align: right;
-}
+
 .container-image {
   background-image: url(../media/HeMan_Background.jpg);
   background-position: center;
@@ -54,6 +56,11 @@ p {
 /* .frontpage-content:hover + div {
   filter: blur(5px);
 } */
+
+.paragraph-text {
+  margin: 1.5rem 1rem 1.5rem 4rem;
+  max-width: 40%;
+}
 
 .container-gradient1 {
   background: linear-gradient(17deg, #35e1b5, #ad0a7f);
