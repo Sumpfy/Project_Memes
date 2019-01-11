@@ -13,10 +13,20 @@ p {
 
 .paragraph-container {
   display: flex;
-  justify-content: left;
-  align-items: center;
+  flex-flow: column;
   background-attachment: fixed;
   margin:0;
+  padding: 4rem 6rem 4rem 6rem;
+}
+
+.paragraph-text {
+  max-width: 35%;
+  margin-right: 3rem;
+}
+
+.paragraph-image {
+  max-height: 28rem;
+  width: auto;
 }
 
 .frontpage-container {
@@ -25,7 +35,7 @@ p {
   align-items: center;
   min-height: 20rem;
 }
-	
+
 
 .frontpage-content {
   color: white;
@@ -52,16 +62,6 @@ p {
   width: 100%;
   transition: 0.18s ease;
 
-}
-
-.paragraph-text {
-  margin: 4rem 4rem 4rem 4rem;
-  max-width: 35%;
-}
-
-.right {
-  /*Für die Content Karten mit Text auf der rechten Seite*/
-  justify-content: right;
 }
 
 .container-gradient1 {
@@ -139,12 +139,20 @@ p {
   }
 
   .grid-container {
-    grid-template-columns: auto auto 
+    grid-template-columns: auto auto
   }
 }
 
 @media (min-width: 68rem) {
     .grid-container {
     grid-template-columns: auto auto auto
+  }
+
+  .paragraph-container {
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    background-attachment: fixed;
+    padding: 4rem 6rem 4rem 6rem;
   }
 }
