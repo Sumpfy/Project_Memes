@@ -94,23 +94,36 @@ p {
   grid-gap: 2rem 2rem;
   text-align: center;
   padding: 2rem;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
+  justify-content: space-around;
+  align-content: space-around;
+  background-color: #969696;
+}
+
+.grid-headline {
+  position: fixed;
 }
 
 .grid-item {
-  padding: 2rem;
-  background-color: #969696;
-  min-width: 20rem;
+  background-color: white;
+  min-width: 18rem;
+  max-width: 22rem;
 }
 
 .grid-item-image {
 
 
 }
-
+.grid-item img {
+  max-width: 15rem;
+  max-height: 15rem;
+  padding: 1rem;
+}
 .grid-item p {
-
+  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
   max-width: 10rem;
+  text-align: center;
+  margin: 0 1rem 1rem 1rem;
 }
 
 .blur {
@@ -118,13 +131,20 @@ p {
   filter: blur(2px);
 }
 
-@media (min-width: 38rem) {
+@media (min-width: 46rem) {
 
   .frontpage-content {
     max-width: 58vw;
     max-height: 72vh;
   }
 
+  .grid-container {
+    grid-template-columns: auto auto 
+  }
+}
 
-
+@media (min-width: 68rem) {
+    .grid-container {
+    grid-template-columns: auto auto auto
+  }
 }
