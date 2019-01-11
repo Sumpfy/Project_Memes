@@ -24,7 +24,7 @@ p {
 }
 
 .paragraph-image {
-max-width: 30%;
+max-width: 100%;
 }
 
 
@@ -47,13 +47,9 @@ max-width: 30%;
   filter: blur(2px);
 }
 
-@media (min-width: 46rem) {
 
-}
+@media (min-width: 62rem) {
 
-@media (min-width: 68rem) {
-
-  }
 
   .paragraph-text {
     max-width: 35vw;
@@ -71,6 +67,10 @@ max-width: 30%;
   .paragraph-image {
     margin: 0 6vw 0 6vw;
     max-height: 50vh;
+    max-width: 45%;
+  }
+  .reverse {
+    flex-flow: row;
   }
 
 }
