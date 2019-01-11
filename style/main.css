@@ -10,73 +10,24 @@ p {
 .pgcontent {
   padding-top: 3rem;
 }
-
 .paragraph-container {
   display: flex;
   flex-flow: column;
   background-attachment: fixed;
   margin:0;
-  padding: 4rem 6rem 4rem 6rem;
+  padding: 4rem 6% 4rem 6%;
 }
 
 .paragraph-text {
-  max-width: 35%;
-  margin-right: 3rem;
+  max-width: 100%;
+  margin-top: 3rem;
 }
 
 .paragraph-image {
-  max-height: 28rem;
-  width: auto;
-}
-
-.frontpage-container {
-  height: calc(100vh - 2.875rem);
-  justify-content: center;
-  align-items: center;
-  min-height: 20rem;
+max-width: 30%;
 }
 
 
-.frontpage-content {
-  color: white;
-  max-width: 92vw;
-  max-height: 78vh;
-  background-color: rgba(1,1,1,0.25);
-  border-radius: 0.85em;
-  padding: 1.2em 3em 1.2em 3em;
-  filter: none !important;
-  z-index: 10;
-}
-.frontpage-content h1 {
-  transition: 2.0s ease;
-  color: white;
-}
-
-.container-image {
-  background-image: url(../media/HeMan_Background.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  height: calc(100vh - 2.875rem);
-  width: 100%;
-  transition: 0.18s ease;
-
-}
-
-.container-gradient1 {
-  background: linear-gradient(17deg, #35e1b5, #ad0a7f);
-  background-size: 400% 400%;
-
-  -webkit-animation: AnimationName 6s ease infinite;
-  -moz-animation: AnimationName 6s ease infinite;
-  animation: AnimationName 6s ease infinite;
-
-  @-webkit-keyframes AnimationName {
-      0%{background-position:50% 0%}
-      50%{background-position:51% 100%}
-      100%{background-position:50% 0%}
-  }
   @-moz-keyframes AnimationName {
       0%{background-position:50% 0%}
       50%{background-position:51% 100%}
@@ -89,42 +40,7 @@ p {
   }
 }
 
-.grid-container {
-  display: grid;
-  grid-gap: 2rem 2rem;
-  text-align: center;
-  padding: 2rem;
-  grid-template-columns: auto;
-  justify-content: space-around;
-  align-content: space-around;
-  background-color: #969696;
-}
 
-.grid-headline {
-  position: fixed;
-}
-
-.grid-item {
-  background-color: white;
-  min-width: 18rem;
-  max-width: 22rem;
-}
-
-.grid-item-image {
-
-
-}
-.grid-item img {
-  max-width: 15rem;
-  max-height: 15rem;
-  padding: 1rem;
-}
-.grid-item p {
-  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
-  max-width: 10rem;
-  text-align: center;
-  margin: 0 1rem 1rem 1rem;
-}
 
 .blur {
   background-size:cover;
@@ -133,26 +49,28 @@ p {
 
 @media (min-width: 46rem) {
 
-  .frontpage-content {
-    max-width: 58vw;
-    max-height: 72vh;
-  }
-
-  .grid-container {
-    grid-template-columns: auto auto
-  }
 }
 
 @media (min-width: 68rem) {
-    .grid-container {
-    grid-template-columns: auto auto auto
+
   }
 
+  .paragraph-text {
+    max-width: 35vw;
+    margin-top: 0;
+    margin-right: 6vw;
+    margin-left: 6vw;
+  }
   .paragraph-container {
-    flex-flow: row;
+    flex-flow: row-reverse;
     justify-content: space-between;
     align-items: center;
     background-attachment: fixed;
-    padding: 4rem 6rem 4rem 6rem;
+    padding: 4rem 0 4rem 0;
   }
+  .paragraph-image {
+    margin: 0 6vw 0 6vw;
+    max-height: 50vh;
+  }
+
 }

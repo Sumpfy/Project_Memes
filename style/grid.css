@@ -1,0 +1,49 @@
+.grid-container {
+  display: grid;
+  grid-gap: 2rem 2rem;
+  text-align: center;
+  padding: 2rem;
+  grid-template-columns: auto;
+  justify-content: space-around;
+  align-content: space-around;
+  background-color: #969696;
+}
+
+.grid-headline {
+  position: fixed;
+}
+
+.grid-item {
+  background-color: white;
+  min-width: 18rem;
+  max-width: 22rem;
+}
+
+.grid-item-image {
+
+
+}
+.grid-item img {
+  max-width: 15rem;
+  max-height: 15rem;
+  padding: 1rem;
+}
+.grid-item p {
+  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+  max-width: 10rem;
+  text-align: center;
+  margin: 0 1rem 1rem 1rem;
+}
+
+@media (min-width: 46rem) {
+
+  .grid-container {
+    grid-template-columns: auto auto
+  }
+}
+
+@media (min-width: 68rem) {
+    .grid-container {
+    grid-template-columns: auto auto auto
+  }
+}

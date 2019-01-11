@@ -1,0 +1,59 @@
+.frontpage-container {
+  display: flex;
+  height: calc(100vh - 2.875rem);
+  justify-content: center;
+  align-items: center;
+  min-height: 20rem;
+}
+
+
+.frontpage-content {
+  color: white;
+  /* max-width: 92vw; */
+  max-height: 78vh;
+  background-color: rgba(1,1,1,0.25);
+  border-radius: 0.85em;
+  padding: 1.2em 3em 1.2em 3em;
+  filter: none !important;
+  z-index: 10;
+  margin: 0 10% 0 10%;
+}
+.frontpage-content h1 {
+  transition: 2.0s ease;
+  color: white;
+}
+
+.container-image {
+  background-image: url(../media/HeMan_Background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: calc(100vh - 2.875rem);
+  width: 100%;
+  transition: 0.18s ease;
+
+}
+
+.container-gradient1 {
+  background: linear-gradient(17deg, #35e1b5, #ad0a7f);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 6s ease infinite;
+  -moz-animation: AnimationName 6s ease infinite;
+  animation: AnimationName 6s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+      0%{background-position:50% 0%}
+      50%{background-position:51% 100%}
+      100%{background-position:50% 0%}
+  }
+
+
+
+@media (min-width: 46rem) {
+  .frontpage-content {
+    max-width: 50%;
+  }
+
+}
