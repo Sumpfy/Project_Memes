@@ -54,16 +54,13 @@ p {
 
 }
 
-/* .frontpage-content:hover + div {
-  filter: blur(5px);
-} */
-
 .paragraph-text {
   margin: 4rem 4rem 4rem 4rem;
   max-width: 35%;
 }
 
 .right {
+  /*Für die Content Karten mit Text auf der rechten Seite*/
   justify-content: right;
 }
 
