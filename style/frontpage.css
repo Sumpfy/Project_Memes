@@ -17,6 +17,7 @@
   filter: none !important;
   z-index: 10;
   margin: 0 10% 0 10%;
+  max-width: 72rem;
 }
 .frontpage-content h1 {
   transition: 2.0s ease;
