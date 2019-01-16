@@ -14,16 +14,19 @@
   background-color: rgba(1,1,1,0.25);
   border-radius: 0.85em;
   padding: 1.2em 3em 1.2em 3em;
-  filter: none !important;
   z-index: 10;
   margin: 0 10% 0 10%;
   max-width: 72rem;
+
+  filter:none !important;
 }
 .frontpage-content h1 {
   transition: 2.0s ease;
   color: white;
 }
-
+.frontpage-content:hover .frontpage-container{
+  filter: blur(2px);
+}
 .container-image {
   background-image: url(../media/HeMan_Background.jpg);
   background-position: center;
