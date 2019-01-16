@@ -18,6 +18,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- <script src="script/dynamic-parallax.js"></script> -->
+    <script>
+
+        $(document).ready(function(){
+      $("#heMan").hover(function(){
+        $(".container-image").css("filter", "blur(5px)");
+        }, function(){
+        $(".container-image").css("filter", "none");
+      });
+    });
+        </script>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">MEMES</a>
@@ -55,9 +65,10 @@
       </div>
     </nav>
 <div class="pgcontent">
+
     <div class="frontpage-container">
       <!-- <div class="container-image"></div> -->
-      <div class="frontpage-content" id="ttf">
+      <div class="frontpage-content" id="heMan">
         <h1>Memes</h1>
         <p>Niemand hat sie erfunden und trotzdem kennt sie jeder. Was steckt hinter dem Internet-Phänomen "Memes"? Wie wird ein Kleinkind durch einen außergewoöhnlichen Gesichtsausdruck über Nacht zum Internet-Star? Und sind alle Memes gesellschaftlich vertretbar? <br>Diese Website beschäftigt sich informativ und kritisch mit dem aufkommenden Thema.</p>
       </div>

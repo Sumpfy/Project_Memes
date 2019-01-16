@@ -1,6 +1,6 @@
 .frontpage-container {
   display: flex;
-  height: calc(100vh - 2.875rem);
+  height: calc(100vh - 3.5rem);
   justify-content: center;
   align-items: center;
   min-height: 20rem;
@@ -18,13 +18,13 @@
   margin: 0 10% 0 10%;
   max-width: 72rem;
 
-  filter:none !important;
+  /* filter:none !important; */
 }
 .frontpage-content h1 {
   transition: 2.0s ease;
   color: white;
 }
-.frontpage-content:hover .frontpage-container{
+.frontpage-content:hover .container-image{
   filter: blur(2px);
 }
 .container-image {
@@ -33,7 +33,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  height: calc(100vh - 2.875rem);
+  height: calc(100vh - 3.5rem);
   width: 100%;
   transition: 0.18s ease;
 
