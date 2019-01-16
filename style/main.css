@@ -23,6 +23,16 @@ p {
   margin-top: 3rem;
 }
 
+.paragraph-container-center {
+  display: flex;
+  flex-flow: column;
+  background-attachment: fixed;
+  margin:0;
+  padding: 4rem 6% 4rem 6%;
+  align-items: center;
+  text-align: center;
+}
+
 .paragraph-image {
 max-width: 100%;
 }
