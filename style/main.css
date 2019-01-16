@@ -18,7 +18,7 @@ a:hover {
 }
 
 .pgcontent {
-  padding-top: 3rem;
+  padding-top: 3.5rem;
 }
 .paragraph-container {
   display: flex;
@@ -29,22 +29,19 @@ a:hover {
 }
 
 .paragraph-text {
-  max-width: 100%;
   margin-top: 3rem;
 }
-
-.paragraph-container-center {
-  display: flex;
-  flex-flow: column;
-  background-attachment: fixed;
-  margin:0;
-  padding: 4rem 6% 4rem 6%;
-  align-items: center;
+.center {
   text-align: center;
 }
 
 .paragraph-image {
-max-width: 100%;
+  height: 40vh;
+  width: 100vw;
+  max-width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -63,13 +60,13 @@ max-width: 100%;
 
 
 .blur {
-  background-size:cover;
   filter: blur(2px);
 }
 
 /* FOOTER */
 
 footer {
+  border-top: 1px solid LightGray;
   font-size: 0.7rem;
   padding: 1rem 1.8rem 1rem 1.8rem;
   background-color: #363636;
@@ -91,7 +88,7 @@ footer {
 }
 
 }
-@media (min-width: 62rem) {
+@media (min-width: 80rem) {
 
 
   .paragraph-text {
@@ -107,10 +104,14 @@ footer {
     background-attachment: fixed;
     padding: 4rem 0 4rem 0;
   }
+  .center {
+    justify-content: center;
+  }
   .paragraph-image {
     margin: 0 6vw 0 6vw;
-    max-height: 50vh;
-    max-width: 45vw;
+    width: 40vw;
+    height: 70vh;
+
   }
   .reverse {
     flex-flow: row;
