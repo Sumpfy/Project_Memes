@@ -59,6 +59,10 @@ a:hover {
   min-height: 20rem;
 }
 
+.fullscreen-container * {
+  margin-top: auto;
+}
+
 .container-gradient1 {
   background: linear-gradient(17deg, #35e1b5, #ad0a7f);
   background-size: 400% 400%;
@@ -84,6 +88,10 @@ a:hover {
 }
 
 
+.scrollButton {
+  /* position: absolute; */
+  margin-bottom: 5vh;
+}
 
 .blur {
   filter: blur(2px);
