@@ -36,10 +36,10 @@ a:hover {
   justify-content: center;
   flex-flow:column;
   align-items: center;
-  min-height: 50vh;
+  min-height: 28vh;
 }
 .center * {
-  max-width: 45rem;
+  max-width: 80rem;
 }
 
 .paragraph-image {
