@@ -18,6 +18,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- <script src="script/dynamic-parallax.js"></script> -->
+    <script>
+      function scrollToTarget() {
+        var target = document.getElementById("scrollTarget");
+        target.scrollIntoView();
+      }
+    </script>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="./index.html">MEMES</a>
@@ -56,12 +62,12 @@
     </nav>
   <div class="pgcontent">
 
-      <div class="paragraph-container center fullscreen-container" style="background-color:#363636;color: white">
-        <h2><i>Die ersten Internetmemes tauchten in den 80er Jahren auf, als Foren wie zum Austausch von Text und Dateien - wie zum Beispiel das “usenet” - erstmals an Popularität gewannen.<br>Einige dieser alten Memes haben bis heute noch nicht an Relevanz verloren.<br><br>Es gibt einige "Meilensteine", die für die Entwicklung des Phänomens ausschlaggebend waren.
-</i></h2>
-
+      <div class="center fullscreen-container" style="background-color:#363636;color: white">
+        <h2>Die ersten Internetmemes tauchten in den 80er Jahren auf, als Foren wie zum Austausch von Text und Dateien - wie zum Beispiel das “usenet” - erstmals an Popularität gewannen.<br>Einige dieser alten Memes haben bis heute noch nicht an Relevanz verloren.<br><br>Es gibt einige "Meilensteine", die für die Entwicklung des Phänomens ausschlaggebend waren.</h2>
+      <div class="scrollButton" onclick="scrollToTarget()"><p>mehr erfahren</p><i class="arrow"></i></div>
       </div>
-      <div class="paragraph-container" style="background-color:#00564d;color: white">
+
+      <div class="paragraph-container" id="scrollTarget"style="background-color:#00564d;color: white">
           <h1>
 </h1>
         <div class="paragraph-image" style="background-image: url(http://www.oldest.org/wp-content/uploads/2017/10/Godwins-Law.jpg)"></div>
