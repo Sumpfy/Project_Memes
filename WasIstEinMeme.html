@@ -18,7 +18,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- <script src="script/dynamic-parallax.js"></script> -->
-
+    <script>
+      function scrollToTarget() {
+        var target = document.getElementById("scrollTarget");
+        target.scrollIntoView();
+      }
+    </script>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="./index.html">MEMES</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,9 +63,9 @@
 
       <div class="center fullscreen-container container-gradient1" style="color: white">
         <h1><i>“Ein Element einer Kultur, das offenbar auf nichtgenetischem Weg, insbesondere durch Imitation, weitergegeben wird.“ <br>- Oxford English Dictionary</i></h1>
-        <div class="scrollButton"><p>mehr erfahren...</p><i class="arrow"></i></div>
+        <div class="scrollButton" onclick="scrollToTarget()"><p>mehr erfahren</p><i class="arrow"></i></div>
       </div>
-      <div class="paragraph-container" style="background-color:#00564d;color: white">
+      <div class="paragraph-container" id="scrollTarget"style="background-color:#00564d;color: white">
         <div class="paragraph-image" style="background-image: url(https://i.kym-cdn.com/photos/images/original/000/573/606/d0a.jpg)"></div>
         <div class="paragraph-text">
           <h1>Herkunft des Begriffs</h1>
