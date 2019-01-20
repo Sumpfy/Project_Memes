@@ -50,6 +50,15 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.fullscreen-container {
+  display: flex;
+  height: calc(100vh - 3.5rem);
+  justify-content: center;
+  align-items: center;
+  min-height: 20rem;
+}
+
 .container-gradient1 {
   background: linear-gradient(17deg, #35e1b5, #ad0a7f);
   background-size: 400% 400%;

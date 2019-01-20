@@ -1,10 +1,4 @@
-.frontpage-container {
-  display: flex;
-  height: calc(100vh - 3.5rem);
-  justify-content: center;
-  align-items: center;
-  min-height: 20rem;
-}
+
 
 
 .frontpage-content {
@@ -38,20 +32,6 @@
   transition: 0.18s ease;
 
 }
-
-.container-gradient1 {
-  background: linear-gradient(17deg, #35e1b5, #ad0a7f);
-  background-size: 400% 400%;
-
-  -webkit-animation: AnimationName 6s ease infinite;
-  -moz-animation: AnimationName 6s ease infinite;
-  animation: AnimationName 6s ease infinite;
-
-  @-webkit-keyframes AnimationName {
-      0%{background-position:50% 0%}
-      50%{background-position:51% 100%}
-      100%{background-position:50% 0%}
-  }
 
 
 
