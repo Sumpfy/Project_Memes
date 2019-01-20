@@ -36,10 +36,10 @@ a:hover {
   justify-content: center;
   flex-flow:column;
   align-items: center;
-  min-height: 28vh;
+  min-height: 95vh;
 }
 .center * {
-  max-width: 80rem;
+  max-width: 45rem;
 }
 
 .paragraph-image {
@@ -50,8 +50,19 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
 }
+.container-gradient1 {
+  background: linear-gradient(17deg, #35e1b5, #ad0a7f);
+  background-size: 400% 400%;
 
-
+  -webkit-animation: AnimationName 6s ease infinite;
+  -moz-animation: AnimationName 6s ease infinite;
+  animation: AnimationName 6s ease infinite;
+}
+  @-webkit-keyframes AnimationName {
+      0%{background-position:50% 0%}
+      50%{background-position:51% 100%}
+      100%{background-position:50% 0%}
+ }
   @-moz-keyframes AnimationName {
       0%{background-position:50% 0%}
       50%{background-position:51% 100%}
@@ -61,7 +72,6 @@ a:hover {
       0%{background-position:50% 0%}
       50%{background-position:51% 100%}
       100%{background-position:50% 0%}
-  }
 }
 
 
