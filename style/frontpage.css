@@ -1,6 +1,6 @@
+/* STARTSEITE */
 
-
-
+/* Vollbild-Felder */
 .frontpage-content {
   color: white;
   /* max-width: 92vw; */
@@ -12,15 +12,14 @@
   margin: 0 10% 0 10%;
   max-width: 72rem;
 
-  /* filter:none !important; */
 }
-.frontpage-content h1 {
-  transition: 2.0s ease;
-  color: white;
-}
+
+/* Hover-Filter Verschwommen */
 .frontpage-content:hover .container-image{
   filter: blur(2px);
 }
+
+/* Startseite Hintergrundbild */
 .container-image {
   background-image: url(../media/HeMan_Background.jpg);
   background-position: center;
@@ -31,10 +30,13 @@
   width: 100%;
   transition: 0.18s ease;
 
+  /* Für die Kantenpixel */
+  transform: scale(1.03);
+
 }
 
 
-
+/* MEDIA QUERIES */
 @media (min-width: 46rem) {
   .frontpage-content {
     max-width: 50%;

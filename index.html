@@ -18,17 +18,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- <script src="script/dynamic-parallax.js"></script> -->
-    <script>
-
-        $(document).ready(function(){
-      $("#heMan").hover(function(){
-        $(".container-image").css("filter", "blur(5px)");
-        }, function(){
-        $(".container-image").css("filter", "none");
-      });
-    });
-        </script>
-
+    <!-- NAVIGTION -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">MEMES</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +43,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./Entwicklung_entstehung.html">Entstehung</a>
+            <a class="nav-link" href="./Entwicklung_entstehung.html">Ent</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Der Meme-Zyklus</a>
@@ -64,36 +54,48 @@
         </ul>
       </div>
     </nav>
-<div class="pgcontent">
+    <!-- CONTENT -->
+    <div class="pgcontent">
 
-    <div class="fullscreen-container">
-      <!-- <div class="container-image"></div> -->
-      <div class="frontpage-content" id="heMan">
-        <h1>Memes</h1>
-        <p>Niemand hat sie erfunden und trotzdem kennt sie jeder. Was steckt hinter dem Internet-Phänomen "Memes"? Wie wird ein Kleinkind durch einen außergewoöhnlichen Gesichtsausdruck über Nacht zum Internet-Star? Und sind alle Memes gesellschaftlich vertretbar? <br>Diese Website beschäftigt sich informativ und kritisch mit dem aufkommenden Thema.</p>
-      </div>
-      <div class="container-image"></div>
+        <div class="fullscreen-container">
+          <!-- <div class="container-image"></div> -->
+          <div class="frontpage-content" id="heMan">
+            <h1>Memes</h1>
+            <p>Niemand hat sie erfunden und trotzdem kennt sie jeder. Was steckt hinter dem Internet-Phänomen "Memes"? Wie wird ein Kleinkind durch einen außergewoöhnlichen Gesichtsausdruck über Nacht zum Internet-Star? Und sind alle Memes gesellschaftlich vertretbar? <br>Diese Website beschäftigt sich informativ und kritisch mit dem aufkommenden Thema.</p>
+          </div>
+          <div class="container-image"></div>
+        </div>
+        <div class="fullscreen-container container-gradient1">
+          <div class="frontpage-content">
+            <h1>Über diese Website...</h1>
+            <p>Dies ist das Produkt der Teamarbeit von drei Studenten der HTWK Leipzig. Es war die Projektaufgabe des Moduls "Multimedia GK" im Studiengang "Medieninformatik", selbstständig im Team eine Website herzustellen, die ein konkretes Internet-Phänomen anschaulich präsentiert. Das Thema "Memes" ist womöglich am offensichtlichsten, aber auch am spannendsten. </p>
+          </div>
+
+        </div>
+
     </div>
-    <div class="fullscreen-container container-gradient1">
-      <div class="frontpage-content">
-        <h1>Über diese Website...</h1>
-        <p>Dies ist das Produkt der Teamarbeit von drei Studenten der HTWK Leipzig. Es war die Projektaufgabe des Moduls "Multimedia GK" im Studiengang "Medieninformatik", selbstständig im Team eine Website herzustellen, die ein konkretes Internet-Phänomen anschaulich präsentiert. Das Thema "Memes" ist womöglich am offensichtlichsten, aber auch am spannendsten. </p>
+    <footer>
+      <div>
+        <p>Copyright 2019<br>Julius Düsel<br>Max Schaible<br>Jonas Gwozdz</p>
+      </div>
+      <div>
+        <a href="./Impressum.html"><p>Impressum & Quellen</p></a>
+      </div>
+      <div>
+        <a href="https://www.htwk-leipzig.de/"><p>HTWK Leipzig</p></a>
       </div>
 
-    </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script>
 
-</div>
-<footer>
-  <div>
-    <p>Copyright 2019<br>Julius Düsel<br>Max Schaible<br>Jonas Gwozdz</p>
-  </div>
-  <div>
-    <a href="./Impressum.html"><p>Impressum & Quellen</p></a>
-  </div>
-  <div>
-    <a href="https://www.htwk-leipzig.de/"><p>HTWK Leipzig</p></a>
-  </div>
-
-</footer>
+        $(document).ready(function(){
+      $("#heMan").hover(function(){
+        $(".container-image").css("filter", "blur(5px)");
+        }, function(){
+        $(".container-image").css("filter", "none");
+      });
+    });
+        </script>
 </body>
 </html>
