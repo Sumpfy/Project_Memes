@@ -145,6 +145,15 @@ i.arrow {
       100%{background-position:50% 0%}
 }
 
+
+/*GOOGLE ANALYTICS*/
+.g-analytics {
+  min-height: 26rem;
+  max-width: 60rem;
+  padding: 3rem;
+  margin: auto;
+}
+
 /* FOOTER */
 
 footer {
