@@ -1,3 +1,4 @@
+/* ALLGEMEINE STYLES */
 html {
   scroll-behavior: smooth;
 }
@@ -15,16 +16,20 @@ a:hover {
   color: inherit;
 }
 
+/* NAVIGATION */
 .nav {
   background-color: #b1c8ed;
 }
 
+
+/* CONTAINER FUER JEDE SEITE */
 .pgcontent {
   background-color: #363636;
   padding-top: 3.5rem;
   min-height: 100vh;
 }
 
+/* BIS JETZT NUR IMPRESSUM */
 .text {
   color: white;
   padding: 3rem;
@@ -32,6 +37,14 @@ a:hover {
   font-size: 0.75rem;
   margin: auto;
 }
+
+.text p {
+  margin-bottom: 2rem;
+}
+
+
+/* KARTEN DESIGN  */
+/* Eine Karte */
 .paragraph-container {
   display: flex;
   flex-flow: column;
@@ -40,9 +53,12 @@ a:hover {
   padding: 4rem 6% 4rem 6%;
 }
 
+/* Text der Karte */
 .paragraph-text {
   margin-top: 3rem;
 }
+
+/* fuer Zitate */
 .center {
   text-align: center;
   flex-flow:column;
@@ -51,6 +67,7 @@ a:hover {
   max-width: 45rem;
 }
 
+/* Bild der Karte */
 .paragraph-image {
   height: 40vh;
   width: 100vw;
@@ -60,6 +77,7 @@ a:hover {
   background-position: center;
 }
 
+/* Container der Größe des Bildschirms */
 .fullscreen-container {
   display: flex;
   height: calc(100vh - 3.5rem);
@@ -72,6 +90,37 @@ a:hover {
   margin-top: auto;
 }
 
+
+
+/* MEHR ERFAHREN */
+.scrollButton {
+  /* position: absolute; */
+  margin-bottom: 5vh;
+  cursor: pointer;
+}
+
+i.arrow {
+
+  font-size: 1.75em;
+  border: solid white;
+  border-width: 0 0.2em 0.2em 0;
+  display: inline-block;
+  padding: 0.3em;
+
+  margin-top: 0.4em;
+
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* GRAPHIC */
+
+/* Verschwommen auf der Startseite */
+.blur {
+  filter: blur(2px);
+}
+
+/* Animierter Farb-Hintergrund */
 .container-gradient1 {
   background: linear-gradient(17deg, #35e1b5, #ad0a7f);
   background-size: 400% 400%;
@@ -96,31 +145,6 @@ a:hover {
       100%{background-position:50% 0%}
 }
 
-
-.scrollButton {
-  /* position: absolute; */
-  margin-bottom: 5vh;
-  cursor: pointer;
-}
-
-i.arrow {
-
-  font-size: 1.75em;
-  border: solid white;
-  border-width: 0 0.2em 0.2em 0;
-  display: inline-block;
-  padding: 0.3em;
-
-  margin-top: 0.4em;
-
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
-.blur {
-  filter: blur(2px);
-}
-
 /* FOOTER */
 
 footer {
@@ -139,6 +163,7 @@ footer div {
   padding: 1em;
 }
 
+/* MEDIA QUERIES */
 @media (min-width: 46rem) {
 footer {
   grid-template-columns: repeat(3, 1fr);
