@@ -173,20 +173,20 @@ footer div {
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 46rem) {
+@media (min-width: 50rem) {
 footer {
   grid-template-columns: repeat(3, 1fr);
 }
 
 }
-@media (min-width: 80rem) {
+@media (min-width: 82rem) {
 
 
   .paragraph-text {
-    max-width: 35vw;
+    max-width: 40vw;
     margin-top: 0;
-    margin-right: 6vw;
-    margin-left: 6vw;
+    margin: 0 3rem 0 3rem;
+
   }
   .paragraph-container {
     flex-flow: row-reverse;
@@ -194,12 +194,14 @@ footer {
     align-items: center;
     background-attachment: fixed;
     padding: 4rem 0 4rem 0;
+    padding-left: calc((100vw - 100rem) / 2);
+    padding-right: calc((100vw - 100rem) / 2);
   }
   .center {
     flex-flow: column;
   }
   .paragraph-image {
-    margin: 0 6vw 0 6vw;
+    margin: 0 3rem 0 3rem;
     width: 40vw;
     height: 70vh;
 
