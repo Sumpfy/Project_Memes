@@ -1,7 +1,7 @@
 /* GRID FÜR BEISPIELE ERSCHEINUNGSFORMEN */
 
 .grid-container {
-  background-color: #969696;
+  background-color: #727272;
 }
 
 .grid {
@@ -21,6 +21,7 @@
   text-align: center;
   width: 100%;
   padding: 0.5em;
+  margin: 0;
 }
 
 /* Items */
