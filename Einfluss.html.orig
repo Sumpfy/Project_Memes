@@ -82,6 +82,9 @@ Doch es gibt ebenso viele, wenn nicht sogar noch mehr Memes, die bewusst eine be
 </div>
      <div class="newspaper" id="scrolltarget">
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <p><b><h2>Die Schattenseite der Memes</h2></b> Memes werden immer öfter dazu benutzt, personen gezielt anzugreifen. Dabei steckt meist kein Böser wille dahinter, sondern lediglich die Gier nach “likes” und “retweets”. Wie sehr dies das Leben der betroffenen schädigen kann, ist den Meisten gar nicht bewusst. Beliebte Ziele sind Feministinnen, sämtliche Glaubensgruppen sowie Minderheiten aller Art. Dabei werden immer wieder Grenzen überschritten.<br>
 Das aktuellste Beispiel dazu, über welches auch in den Nachrichten berichtet wurde, ist das folgende Bild:<br><br>
 <img class="image" src="https://i.kym-cdn.com/entries/icons/original/000/027/974/queen.jpg"><br>
@@ -92,7 +95,7 @@ Das bekannteste Forum für diese Art von Memes findet man unter:<br> <i><a href=
 
 </div>
     </div>
-
+=======
         <div class="newspaper" id="scrolltarget">
           <h1>Meme Marketing</h1>
           <p><b>Warum ist es effektiv?</b><br><br></p>
@@ -105,7 +108,8 @@ Das bekannteste Forum für diese Art von Memes findet man unter:<br> <i><a href=
 
 
       </div>
-
+>>>>>>> 716df8be090f7065cb98717cdc1522169004610c
+=======
         <div class="newspaper" id="scrolltarget">
           <h1>Meme Marketing</h1>
           <p><b>Warum ist es effektiv?</b><br><br></p>
@@ -113,12 +117,19 @@ Das bekannteste Forum für diese Art von Memes findet man unter:<br> <i><a href=
           </p>
           <p><b>Wie sind Memes als Werbung einzusetzen?</b><br><br></p>
           <p>Wie jede Art von Humor, können auch Memes zum Verhängnis eines Unternehmens werden, wenn sie nicht richtig eingesetzt werden. Ein schlecht aufgebauter oder zu offensiver Witz könnte die Zielgruppe abschreckten. Damit das nicht passiert sind einige Aspekte zu beachten. Zunächst sollte die Herkunft eines Memes gut durchleuchtet werden, um sicherzustellen, dass es keine problematischen Konnotationen verbirgt, die das Unternehmen in ein schlechtes Licht rücken könnten. Dies lässt sich beispielsweise über Webseiten wie Know Your Meme realisieren. Vielmehr ist es von Vorteil, wenn das Meme eine gute Intention hat oder Probleme adressiert und im besten Fall die Werte des Unternehmens stützt. Außerdem ist es wichtig, dass das verwendete meme bereits einen gewissen Bekanntheitsgrad erreicht hat, um Unverständnis beim Betrachters zu vermeiden. Zuletzt hat auch der Zeitpunkt der Veröffentlichung und die aktuelle Relevanz des Memes entscheidend Einfluss auf dessen Werbeeffekt.</p>
+=======
+>>>>>>> d7b210a9fffb0011b738a7a895f028f8807d4a0f
+
+     
+
+<<<<<<< HEAD
 
 
       </div>
-
+>>>>>>> 716df8be090f7065cb98717cdc1522169004610c
+=======
     </div>
-
+>>>>>>> d7b210a9fffb0011b738a7a895f028f8807d4a0f
     <footer>
       <div>
         <p>Copyright 2019<br>Julius Düsel<br>Max Schaible<br>Jonas Gwozdz</p>
