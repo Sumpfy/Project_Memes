@@ -1,24 +1,26 @@
 /* GRID FÜR BEISPIELE ERSCHEINUNGSFORMEN */
 
 .grid-container {
+  background-color: #969696;
+}
+
+.grid {
   display: grid;
-  grid-gap: 3rem 6%;
+  max-width: 100vw;
+  grid-gap: 3em 6%;
   text-align: center;
-  padding: 2rem;
+  padding: 2em;
   grid-template-columns: auto;
   justify-content: space-around;
   align-content: space-around;
-  background-color: #969696;
-
-  padding-top: 5rem;
 }
 
 /* Überschrift */
 .grid-headline {
-  position: absolute;
+  color: white;
   text-align: center;
   width: 100%;
-  margin: 0.4em;
+  padding: 0.5em;
 }
 
 /* Items */
@@ -44,7 +46,7 @@
 /* MEDIA QUERIES */
 @media (min-width: 46rem) {
 
-  .grid-container {
+  .grid {
     grid-template-columns: auto auto
   }
   .grid-item:hover {
@@ -53,7 +55,7 @@
 }
 
 @media (min-width: 68rem) {
-    .grid-container {
+    .grid {
     grid-template-columns: auto auto auto
   }
 }
