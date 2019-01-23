@@ -24,6 +24,7 @@ a:hover {
 /* NAVIGATION */
 nav {
   background-color: #363636;
+  border-bottom: 1px solid rgba(255,255,255,.1);
 }
 .nav-link {
   color: LightGray !important ;
@@ -52,61 +53,6 @@ nav {
 .text p {
   margin-bottom: 2rem;
 }
-
-
-/* KARTEN DESIGN  */
-/* Eine Karte */
-.paragraph-container {
-  display: flex;
-  flex-flow: column;
-  background-attachment: fixed;
-  margin:0;
-  padding: 4rem 6% 4rem 6%;
-  align-items: center;
-}
-
-/* Text der Karte */
-.paragraph-text {
-  margin-top: 3rem;
-}
-
-/* fuer Zitate */
-.center {
-  text-align: center;
-  flex-flow:column;
-}
-.center * {
-  max-width: 45rem;
-}
-
-/* Bild der Karte */
-.paragraph-image {
-  height: 40vh;
-  width: 100vw;
-  max-width: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.video {
-  width: 560px;
-  height: 315px;
-}
-
-/* Container der Größe des Bildschirms */
-.fullscreen-container {
-  display: flex;
-  height: calc(100vh - 3.5rem);
-  justify-content: center;
-  align-items: center;
-  min-height: 20rem;
-}
-
-.fullscreen-container * {
-  margin-top: auto;
-}
-
-
 
 /* MEHR ERFAHREN */
 .scrollButton {
@@ -211,5 +157,6 @@ footer * {
 
 }
 @media (min-width: 82rem) {
+
 
 }
