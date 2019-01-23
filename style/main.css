@@ -41,10 +41,7 @@ a:hover {
 .text p {
   margin-bottom: 2rem;
 }
-.image {
-  max-width: 23rem;
-  margin: 1rem;
-}
+
 
 /* KARTEN DESIGN  */
 /* Eine Karte */
@@ -78,6 +75,9 @@ a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.video {
+  height: calc(40vw / (16/9)) 
 }
 
 /* Container der Größe des Bildschirms */
@@ -207,7 +207,9 @@ footer {
     margin: 0 3rem 0 3rem;
     width: 40vw;
     height: 70vh;
-
+  }
+  .video {
+    height: calc(40vw / (16/9)) 
   }
   .reverse {
     flex-flow: row;
