@@ -9,11 +9,16 @@
   justify-content: space-around;
   align-content: space-around;
   background-color: #969696;
+
+  padding-top: 5rem;
 }
 
 /* Überschrift */
 .grid-headline {
   position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: 0.4em;
 }
 
 /* Items */
