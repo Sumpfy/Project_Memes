@@ -10,7 +10,7 @@ html{
   -moz-column-gap: 2.5rem;
   column-gap: 2.5rem;
   color:white;
-  padding: 1.5rem;
+  padding: 1.5rem 2rem 3rem 2rem;
   	 
 }
 @media (min-width: 46rem) {
