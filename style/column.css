@@ -1,0 +1,27 @@
+html{
+
+}
+
+.newspaper {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-gap:2.5rem;
+  -moz-column-gap: 2.5rem;
+  column-gap: 2.5rem;
+  color:white;
+  padding: 1.5rem;
+  	 
+}
+@media (min-width: 46rem) {
+
+  .newspaper{-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+@media (min-width: 68rem) {
+ .newspaper{  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+}
