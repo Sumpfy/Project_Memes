@@ -126,6 +126,7 @@ i.arrow {
 }
 
 /* Animierter Farb-Hintergrund */
+/*Quelle https://www.gradient-animator.com/*/
 .container-gradient1 {
   background: linear-gradient(17deg, #35e1b5, #ad0a7f);
   background-size: 400% 400%;
@@ -150,6 +151,23 @@ i.arrow {
       100%{background-position:50% 0%}
 }
 
+.container-gradient2 {
+   background: linear-gradient(323deg, #35ba93, #e6ad3c);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 6s ease infinite;
+  -moz-animation: AnimationName 6s ease infinite;
+  animation: AnimationName 6s ease infinite;
+}
+
+.container-gradient3 {
+  background: linear-gradient(323deg, #cc6120, #e6ad3c, #ad308e);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 6s ease infinite;
+  -moz-animation: AnimationName 6s ease infinite;
+  animation: AnimationName 6s ease infinite;
+}
 
 /*GOOGLE ANALYTICS*/
 .g-analytics {
