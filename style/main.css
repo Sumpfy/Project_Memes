@@ -1,6 +1,12 @@
 /* ALLGEMEINE STYLES */
 html {
   scroll-behavior: smooth;
+  color: white;
+
+}
+body {
+  color: white;
+
 }
 p {
   margin: 0;
@@ -192,7 +198,6 @@ footer {
   background-color: #363636;
   color: LightGray;
   text-align: center;
-  justify-items: center;
 
 
   display: grid;
@@ -201,7 +206,6 @@ footer {
 footer div {
   background-color: #363636;
   padding: 1em;
-  max-width: 10rem;
 }
 footer a:hover {
   color: rgba(255,255,255,.9);
