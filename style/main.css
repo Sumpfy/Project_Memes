@@ -6,11 +6,13 @@ html {
   scroll-behavior: smooth;
 
 }
+
 body {
   color: white;
   font-family: 'Sarabun', sans-serif;
 
 }
+
 p {
   margin: 0;
   font-size: 150%;
@@ -139,6 +141,8 @@ i.arrow {
     50%{background-position:51% 100%}
     100%{background-position:50% 0%}
 }
+
+/*Animierter Hintergrund ENDE*/
 
 /* FOOTER */
 

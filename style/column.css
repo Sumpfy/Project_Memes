@@ -1,7 +1,4 @@
-html{
-
-}
-
+/* Zeitungsähnliche Spalten für viel Text*/
 .newspaper {
   -webkit-column-count: 1;
   -moz-column-count: 1;
