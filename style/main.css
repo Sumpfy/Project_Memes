@@ -114,6 +114,16 @@ i.arrow {
   -moz-animation: AnimationName 6s ease infinite;
   animation: AnimationName 6s ease infinite;
 }
+
+.container-gradient4 {
+  background: linear-gradient(323deg, #007f63, #7f9bff, #7fdbff);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 6s ease infinite;
+  -moz-animation: AnimationName 6s ease infinite;
+  animation: AnimationName 6s ease infinite;
+}
+
 @-webkit-keyframes AnimationName {
     0%{background-position:50% 0%}
     50%{background-position:51% 100%}
