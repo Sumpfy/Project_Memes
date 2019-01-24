@@ -1,10 +1,15 @@
 /* ALLGEMEINE STYLES */
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+
 html {
   scroll-behavior: smooth;
 
 }
 body {
   color: white;
+  font-family: 'Sarabun', sans-serif;
+
 }
 p {
   margin: 0;
