@@ -71,7 +71,7 @@
   .paragraph-image {
     margin: 0 3rem 0 3rem;
     width: 40vw;
-    height: 70vh;
+    /* height: 70vh; */
   }
   .video {
     width: 560px;
